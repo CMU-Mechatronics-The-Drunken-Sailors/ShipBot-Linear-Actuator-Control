@@ -21,7 +21,7 @@ const int M3_DIRECTION = 8;
 
 void setup()
 {
-  Serial.begin(9600);
+  Serial.begin(115200);
   
   pinMode(M1_SPEED, OUTPUT);
   // pinMode(M2_SPEED, OUTPUT);
